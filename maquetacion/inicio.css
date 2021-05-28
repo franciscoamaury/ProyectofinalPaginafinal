@@ -1,0 +1,42 @@
+*{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1902px;
+    height: 3476px;
+    display: block;
+}
+header{
+    background-color: burlywood;
+    width: 1902px;
+    height: 79px;
+}
+
+
+.cajadeslides{
+    width: 1902px;
+    height: 671px;
+    background-color: greenyellow;
+}
+.Menu{
+    width: 1902px;
+    height: 1081px;
+    background-color: dodgerblue;
+}
+.Acerca_de{
+    width: 1902px;
+    height: 635px;
+    background-color:lightskyblue;
+}
+.banner{
+    width: 1902px;
+    height: 502px;
+    background-color:darkseagreen;
+}
+.footer{
+    width: 1902px;
+    height: 543px;
+    background-color:lightslategray;
+}

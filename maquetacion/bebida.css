@@ -1,0 +1,30 @@
+*{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1902px;
+    height: 2579px;
+    display: block;
+}
+header{
+    background-color: burlywood;
+    width: 1902px;
+    height: 79px;
+}
+.imagen{
+    width: 1902px;
+    height: 485px;
+    background-color: lemonchiffon;
+}
+.menu{
+    width: 1902px;
+    height: 1502px;
+    background-color: lightsteelblue;
+}
+.footer{
+    width: 1902px;
+    height: 513px;
+    background-color:lightslategray;
+}

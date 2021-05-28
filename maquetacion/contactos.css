@@ -1,0 +1,35 @@
+*{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1902px;
+    height: 2637px;
+    display: block;
+}
+header{
+    background-color: burlywood;
+    width: 1902px;
+    height: 79px;
+}
+.imagencontexto{
+    width: 1902px;
+    height: 477px;
+    background-color: lightskyblue;
+}
+.contenido{
+    width: 1902px;
+    height: 968px;
+    background-color: lightseagreen;
+}
+.mapa{
+    width: 1902px;
+    height: 600px;
+    background-color: lightskyblue;
+}
+.footer{
+    width: 1902px;
+    height: 513px;
+    background-color:lightslategray;
+}

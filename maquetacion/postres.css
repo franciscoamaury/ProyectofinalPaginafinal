@@ -1,0 +1,26 @@
+*{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1902px;
+    height: 1714px;
+    display: block;
+}
+header{
+    background-color: burlywood;
+    width: 1902px;
+    height: 79px;
+}
+
+.menu{
+    width: 1902px;
+    height: 1122px;
+    background-color: rgb(93, 146, 214);
+}
+.footer{
+    width: 1902px;
+    height: 513px;
+    background-color:lightslategray;
+}

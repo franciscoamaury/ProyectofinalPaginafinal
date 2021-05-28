@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0;
+        }
+        
+        .navbar {
+          overflow: hidden;
+          background-color: #333; 
+        }
+        
+        .navbar a {
+          float: left;
+          font-size: 16px;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        .subnav {
+          float: left;
+          overflow: hidden;
+        }
+        
+        .subnav .subnavbtn {
+          font-size: 16px;  
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+        }
+        
+        .navbar a:hover, .subnav:hover .subnavbtn {
+          background-color: red;
+        }
+        
+        .subnav-content {
+          display: none;
+          position: absolute;
+          left: 0;
+          background-color: red;
+          width: 100%;
+          z-index: 1;
+        }
+        
+        .subnav-content a {
+          float: left;
+          color: white;
+          text-decoration: none;
+        }
+        
+        .subnav-content a:hover {
+          background-color: #eee;
+          color: black;
+        }
+        
+        .subnav:hover .subnav-content {
+          display: block;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="navbar">
+          
+          <div class="subnav">
+            <button class="subnavbtn">Acerca de <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="#company">Nuestra Historia</a>
+              <a href="#team">El equipo</a>
+            </div>
+          </div> 
+          
+          <div class="subnav">
+            <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="#bring">Almuerzo</a>
+              <a href="#deliver">Cena</a>
+              <a href="#package">Postres</a>
+              <a href="#express">Bebidas</a>
+            </div>
+          </div>
+          <a href="#home">Home</a>
+          <a href="#home">Reservaciones</a>
+          <a href="#contact">Contact</a>
+        </div>
+</body>
+</html>
