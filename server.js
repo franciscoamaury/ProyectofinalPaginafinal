@@ -17,10 +17,10 @@ app.get('/Almuerzo', (req, res) => res.render('pages/Almuerzo'))
 app.get('/Cena', (req, res) => res.render('pages/Cena'))
 app.get('/Bebidas', (req, res) => res.render('pages/Bebidas'))
 app.get('/Postres', (req, res) => res.render('pages/Potres'))
-app.get('/Home', (req, res) => res.render('pages/index'))
+app.get('/', (req, res) => res.render('pages/index'))
 
 app.get('/Contactos', (req, res) => res.render('pages/Contactos'))
-
+app.get('/privacy', (req, res) => res.render('pages/Privacy_Policy'))
 //Conexion
 const connection = mysql.createConnection({
     connectionLimit:5000,

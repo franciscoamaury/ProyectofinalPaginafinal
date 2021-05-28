@@ -83,38 +83,32 @@
         text-align: center;
     }
 
-    .block{
+      .block{
         display: flex;
         text-align: center;
-        margin-top: 60px;
+        height: 614.5px;
+    } 
+
+    .container1 .image1{
+      height: 400px;
+      margin-top: 30px;
+      margin-left: 200px;
+      margin-right: 200px;
     }
 
-    .chefs1{
-        width: 50%;
-        padding-left: 50px;
-    }
+   .container2 .image2{
+      height: 400px;
+      margin-top: 30px;
+      margin-left: 200px;
+      margin-right: 200px;
+   }
 
-    .chefs1 img{
-        height: 550px;
-    }
-
-    .chefs2{
-        width: 50%;
-        padding-left: 300px;
-    }
-
-    .chefs2 img{
-        height: 550px;
-    }
-
-    .chefs3{
-        width: 50%;
-    }
-
-    .chefs3 img{
-        height: 550px;
-    }
-    
+   .container3 .image3{
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+ }
 
     .footer {
         display: flex;
