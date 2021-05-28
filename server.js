@@ -16,7 +16,7 @@ app.get('/Equipo', (req, res) => res.render('pages/Equipo'))
 app.get('/Almuerzo', (req, res) => res.render('pages/Almuerzo'))
 app.get('/Cena', (req, res) => res.render('pages/Cena'))
 app.get('/Bebidas', (req, res) => res.render('pages/Bebidas'))
-app.get('/Postres', (req, res) => res.render('pages/Potres'))
+app.get('/Postres', (req, res) => res.render('pages/potres'))
 app.get('/', (req, res) => res.render('pages/index'))
 
 app.get('/Contactos', (req, res) => res.render('pages/Contactos'))
